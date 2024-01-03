@@ -13,6 +13,7 @@ for i in range(len(solusi)):
         kalori += food[i][1]
 
 #Print output
+print("____________________________________________")
 print("Total uang yang digunakan: Rp.",int(uangUsed))
 print("Total kalori yang didapatkan:",kalori, "kkal")
 print("Kalori per hari yang dibutuhkan:", age_nutrition[kategori-1][1], "kkal")
